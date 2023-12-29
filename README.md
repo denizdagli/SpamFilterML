@@ -1,6 +1,6 @@
 # Spam Filtration with UCI Spambase Dataset
 
-This project aims to develop a spam filter using the [UCI Spambase dataset] (https://archive.ics.uci.edu/dataset/94/spambase) within the scope of a machine learning course. The project is implemented using the Python programming language and various libraries in a Jupyter Notebook.
+This project aims to develop a spam filter using the UCI Spambase dataset (https://archive.ics.uci.edu/dataset/94/spambase) within the scope of a machine learning course. The project is implemented using the Python programming language and various libraries in a Jupyter Notebook.
 
 ## Project Content
 - `spambase.csv`: UCI Spambase dataset.
