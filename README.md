@@ -1,23 +1,31 @@
-# UCI Spambase Veri Seti ile Spam Filtrasyonu
+# Spam Filtration with UCI Spambase Dataset
 
-Bu proje, makine öğrenimi dersi kapsamında UCI Spambase veri seti kullanılarak spam filtresi geliştirmek amacıyla gerçekleştirilmiştir. Proje, Jupyter Notebook üzerinde Python programlama dili ve çeşitli kütüphaneler kullanılarak oluşturulmuştur.
+This project aims to develop a spam filter using the [UCI Spambase dataset] (https://archive.ics.uci.edu/dataset/94/spambase) within the scope of a machine learning course. The project is implemented using the Python programming language and various libraries in a Jupyter Notebook.
 
-## Proje İçeriği
+## Project Content
+- `spambase.csv`: UCI Spambase dataset.
+- `spambase.names`: Contains the features of the UCI Spambase dataset.
+- `spambase.DOCUMENTATION`: Documentation of the UCI Spambase dataset.
+- `SpamFilterML.ipynb`: Jupyter Notebook file. It includes steps such as exploring the dataset, splitting into training/test sets, and creating models using K-NN, SVM, Decision Trees, Random Forest, and Artificial Neural Networks algorithms.
+- 
+## Project Installation and Usage
+- Download the project files to your computer.
+- Start your Jupyter Notebook environment.
+- Open the `SpamFilterML.ipynb` file.
+- Evaluate the performance of the models and make any desired improvements.
 
-- `spambase.csv`: UCI Spambase veri seti. İçerisinde 48 sürekli özellik, 6 sürekli özellik ve 1 nominal etiket içermektedir.
-- `SpamFilterML.ipynb`: Jupyter Notebook dosyası. Veri setinin incelenmesi, özellik mühendisliği, eğitim/test setlerine ayrılması ve K-NN, SVM, Karar Ağaçları gibi algoritmaların kullanılarak modellerin oluşturulması adımlarını içerir.
-- `README.md`: Bu dosya. Proje hakkında genel bilgiler ve kullanım yönergelerini içerir.
 
-## Proje Kurulumu ve Kullanımı
+## Used Libraries
+- Pandas: For data manipulation and analysis.
+- Matplotlib: For data visualization.
+- Scikit-learn: For the usage of machine learning algorithms.
+- Numpy
 
-1. Proje dosyalarını bilgisayarınıza indirin.
-2. Jupyter Notebook ortamınızı başlatın.
-3. `SpamFilterML.ipynb` dosyasını açın.
-4. Modellerin performansını değerlendirin ve istediğiniz geliştirmeleri yapın.
 
-## Kullanılan Kütüphaneler
 
-- Pandas: Veri manipülasyonu ve analizi için.
-- Matplotlib: Veri görselleştirmesi için.
-- Scikit-learn: Makine öğrenimi algoritmalarının kullanımı için.
+
+
+
+
+
 
